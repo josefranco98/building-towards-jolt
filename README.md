@@ -14,7 +14,7 @@ Core tools include polynomial commitments, the Schwartz–Zippel lemma, and mult
 
 Building on these foundations, the thesis develops the sum-check protocol and the GKR protocol as central mechanisms for algebraic verification. These are then extended to modern lookup arguments, including Plookup and Logup.
 
-The work culminates in the study of Lasso and Jolt, which unify linear verification and modular proof composition into a coherent framework for scalable SNARK construction. :contentReference[oaicite:0]{index=0}
+The work culminates in the study of Lasso and Jolt, which unify linear verification and modular proof composition into a coherent framework for scalable SNARK construction.
 
 ---
 
@@ -40,7 +40,7 @@ A central theme is the reduction of complex verification tasks to polynomial ide
 - Polynomial commitments enforce identities succinctly  
 - Lookup arguments replace circuit constraints with table-based verification  
 
-Together, these techniques show how scalable proof systems emerge from a unified algebraic perspective. :contentReference[oaicite:1]{index=1}
+Together, these techniques show how scalable proof systems emerge from a unified algebraic perspective.
 
 ---
 
@@ -49,12 +49,12 @@ The later part of the thesis focuses on lookup-based proof systems.
 
 Lasso introduces efficient lookup arguments based on structured inner products and sparse representations. Jolt extends this paradigm by expressing full computation (e.g., a RISC-V execution trace) purely through algebraic lookups, avoiding traditional circuit-based encodings.
 
-This reflects a broader shift toward lookup-centric proof system design, where verification is reduced to consistency of table relations rather than arithmetic constraints. :contentReference[oaicite:2]{index=2}
+This reflects a broader shift toward lookup-centric proof system design, where verification is reduced to consistency of table relations rather than arithmetic constraints.
 
 ---
 
 ### Contents
-- `building-towards-jolt.pdf` — full thesis  
+- [Full thesis (PDF)](building-towards-jolt.pdf)
 
 ---
 
